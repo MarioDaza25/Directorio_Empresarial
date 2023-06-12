@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.contenedor{
+    height: auto;
+    width: 100%;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+h1 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: 100;
+    background-color: rgb(81, 81, 244);
+    color: white;
+    font-family: sans-serif;
+    
+}
+.formulario{
+    width: 350px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px rgba(93, 93, 93, 0.3);
+}
+
+.divFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: sans-serif;
+}
+
+button {
+    width: 30%;
+    height: 30px;
+    margin: 5px;
+    border: inset 5px rgb(197, 196, 196);
+}
+
+img {
+    width: 80%;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.boton_eliminar{
+    background-color: rgb(218, 81, 81);
+    border: inset 5px rgb(255, 3, 3);
+    color: white;
+    width: auto;
+}
+.divTabla {
+    width: 90%;
+    height: auto;
+    background-color: rgba(95, 95, 95, 0.379);
+    display: block;
+    border-radius: 15px;
+
+}
+
+.titulo_tabla {
+    color: rgba(247, 75, 75, 0.68);
+    text-align: center;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+    background-color: rgb(113, 196, 113);
+    font-family: sans-serif;
+    font-weight: 100;;
+    
+}
+hr {
+    width: 100%;
+    height: 1px;
+    color: white;
+
+}
+
+
+td {
+    text-align: center;
+    color: rgb(12, 12, 13);
+}
+
+.tabla {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(253, 251, 251); 
+    font-family: sans-serif; 
+}
+
+.encabezado_t {
+    border-right: 1px solid white;
+    color: rgba(251, 248, 249, 0.541);
+}
+
+
